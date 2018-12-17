@@ -24,7 +24,7 @@
     <dependencies>
         <dependency>
             <groupId>com.bestsolution.erp</groupId>
-            <artifactId>best-web</artifactId>
+            <artifactId>client</artifactId>
             <version>${project.version}</version>
             <scope>runtime</scope>
         </dependency>
@@ -111,7 +111,7 @@
                             <outputDirectory>${project.build.directory}/classes/resources/</outputDirectory>
                             <resources>
                                 <resource>
-                                    <directory>${project.parent.basedir}/web/src/main/web/dist/app/</directory>
+                                    <directory>${project.parent.basedir}/client/src/main/web/dist/app/</directory>
                                 </resource>
                             </resources>
                         </configuration>

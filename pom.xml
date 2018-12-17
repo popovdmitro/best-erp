@@ -18,7 +18,7 @@
 
     <modules>
         <module>server</module>
-        <module>web</module>
+        <module>client</module>
     </modules>
 
 </project>

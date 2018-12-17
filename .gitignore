@@ -1,5 +1,5 @@
 /server/target/
-/web/target/
+/client/target/
 
 
 ### STS ###
@@ -26,13 +26,13 @@
 /.nb-gradle/
 
 # compiled output
-/web/src/main/web/dist
-/web/src/main/web/tmp
-/web/src/main/web/out-tsc
+/client/src/main/web/dist
+/client/src/main/web/tmp
+/client/src/main/web/out-tsc
 
 # dependencies
-/web/src/main/web/node
-/web/src/main/web/node_modules
+/client/src/main/web/node
+/client/src/main/web/node_modules
 
 # profiling files
 chrome-profiler-events.json
